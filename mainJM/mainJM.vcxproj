@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bd34fee6-6865-4def-aca6-1932f43bd470}</ProjectGuid>
-    <RootNamespace>paradigma</RootNamespace>
+    <ProjectGuid>{651308ed-e983-4352-bb5b-51152979118a}</ProjectGuid>
+    <RootNamespace>mainJM</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="paradigma.cpp" />
+    <ClCompile Include="mainJM.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jantung.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
