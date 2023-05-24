@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bd34fee6-6865-4def-aca6-1932f43bd470}</ProjectGuid>
-    <RootNamespace>paradigma</RootNamespace>
+    <ProjectGuid>{d31ef415-d6b7-4486-bd09-e8ea31c27b3a}</ProjectGuid>
+    <RootNamespace>mainIA</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="paradigma.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ibu.h" />
+    <ClCompile Include="mainIA.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
