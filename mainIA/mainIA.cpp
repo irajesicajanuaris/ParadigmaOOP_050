@@ -27,4 +27,5 @@ int main() {
 	delete varAnak3;
 
 	return 0;
+
 }
